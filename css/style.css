@@ -1,4 +1,4 @@
-.logo_img {
+.logoImg {
     height: 60px;
 }
 .navbar-light {
@@ -6,4 +6,13 @@
 }
 .navbar-brand {
     padding: 0;
+}
+.container {
+    background: yellow;
+}
+.border_red {
+    border: 2px solid red;
+}
+.paddingFentLent {
+    padding: 20px 0;
 }
