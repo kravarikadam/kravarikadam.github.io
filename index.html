@@ -1,129 +1,70 @@
 <!DOCTYPE html>
 <html lang="hu">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <title>Kelomotor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac4c1cd932.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/kelo_logo.png" class="img-fluid logoImg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Akció</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Bukósisak</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Ruházat</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Védőfelszerelés</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Felszerelés</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Kiegészítők</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Tartozékok</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Alkatrész</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Kenőanyag</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Ide írd be amit keresel"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Kereső</button>
-                </form>
+    <header>
+        <nav>
+            <div id="logo">
+               <img src="img/kelo_logo.gif" alt="kelomotor_logo" title="vissza a Kezdőlapra"> 
+            </div>
+            <div id="nav__ikonok">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="cim_kep_leiras_doboz">
+                <h1>Cím</h1>
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae debitis perferendis, eaque repellat eos tempore deserunt ipsam similique minima.</p>
             </div>
         </div>
-    </nav>
-
-    <div class="container">
-        <div class="alert alert-danger text-center displayNone" role="alert"></div>
-        <div class="alert alert-primary text-center displayNone" role="alert"></div>
-        <div class="alert alert-success text-center displayNone" role="alert"></div>
-        <div class="alert alert-warning text-center displayNone" role="alert"></div>
-        
-        <div class="cimKepLeirasAr">
-            <p class="h1 text-center">Cím</p>
-            <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-3">
-                <div class="col">
-                    <div class="p-3 border bg-light d-flex justify-content-center align-items-center"><img
-                                src="img/300x300.jpg" alt="" class="img-fluid"></div>
-                </div>
-                <div class="col">
-                    <div class="p-3 border bg-light d-flex justify-content-center align-items-center"><img
-                                src="img/300x300.jpg" alt="" class="img-fluid"></div>
-                </div>
-                <div class="col">
-                    <div class="p-3 border bg-light d-flex justify-content-center align-items-center"><img
-                                src="img/300x300.jpg" alt="" class="img-fluid"></div>
-                </div>
-                <div class="col">
-                    <div class="p-3 border bg-light d-flex justify-content-center align-items-center"><img
-                                src="img/300x300.jpg" alt="" class="img-fluid"></div>
-                </div>
+        <div class="container">
+            <div class="cim_kep_leiras_doboz">
+                <h1>Cím</h1>
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae debitis perferendis, eaque repellat eos tempore deserunt ipsam similique minima.</p>
             </div>
-            <p class="text-center">leirás Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nostrum, natus saepe ipsa in itaque autem aspernatur perferendis sit deleniti facere non possimus nihil recusandae cumque est totam molestias esse dolore quis quia eum? Reprehenderit inventore amet minima magni, corrupti et unde atque sed sint. Error nesciunt in rerum incidunt!</p>
-            <p class="text-center">Ára:xxx.-</p>
         </div>
-    </div>
-
-    <script>
-       let test = document.createElement("p");
-       test.className = "piros";
-       test.innerHTML = "js test irasom";
-
-       let parent = document.querySelector("div.container");
-       parent.appendChild(test);
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
-
-    <script>
-        /* let pirosAlert = document.querySelector("div.alert.alert-danger.text-center");
-        pirosAlert.setAttribute("class","displayOn alert alert-danger text-center" );
-        pirosAlert.innerHTML = "Piros szöveg!"; */
-
-        /* let kekAlert = document.querySelector("div.alert.alert-primary.text-center");
-        kekAlert.setAttribute("class","displayOn alert alert-primary text-center" );
-        kekAlert.innerHTML = "Kék szöveg!"; */
-
-        /* let zöldAlert = document.querySelector("div.alert.alert-success.text-center");
-        zöldAlert.setAttribute("class","displayOn alert alert-success text-center" );
-        zöldAlert.innerHTML = "Zöld szöveg"; */
-
-        /* let sargaAlert = document.querySelector("div.alert.alert-warning.text-center");
-        sargaAlert.setAttribute("class","displayOn alert alert-warning text-center" );
-        sargaAlert.innerHTML = "Sárga szöveg"; */
-    </script>
+        <div class="container">
+            <div class="cim_kep_leiras_doboz">
+                <h1>Cím</h1>
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae debitis perferendis, eaque repellat eos tempore deserunt ipsam similique minima.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cim_kep_leiras_doboz">
+                <h1>Cím</h1>
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <img src="img/n302s.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae debitis perferendis, eaque repellat eos tempore deserunt ipsam similique minima.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container"></div>
+    </footer>
 </body>
-
 </html>

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body {
+    background-color: rgb(255, 102, 0);
+    padding: 5px;
+    padding-top: 70px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0 5px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 102, 0);
+    height: 80px;
+}
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/wall_carbon_5.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+nav img {
+    width: 120px;
+}
+#logo {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+#nav__ikonok i {
+    font-size: 30px;
+    padding: 0 12px;
+    color:rgb(237, 236, 232);
+}
+#nav__ikonok i:hover {
+    color:rgb(255, 102, 0);
+}
+#nav__ikonok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px; 
+}
+/*-----------section-----------*/
+
+section .container {
+    background-image: url(img/wall_carbon_5.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h1 {
+    color:rgb(9, 9, 9);
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient( rgb(255, 102, 0),rgb(237, 236, 232));
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+p {
+    color: rgb(237, 236, 232);
+    text-align: center;
+    padding: 10px;
+}
+.cim_kep_leiras_doboz img {
+    width: 24%;
+    border-radius: 10px;
+}
+
+
+
+

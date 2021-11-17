@@ -1,2 +1,0 @@
-# kravarikadam.github.io
-Lerning
