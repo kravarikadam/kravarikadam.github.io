@@ -56,13 +56,16 @@ nav img {
 }
 /*-----------section-----------*/
 
+section {
+    padding: 10px;
+}
 section .container {
     background-image: url(img/wall_carbon_5.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
     padding: 5px;
-    max-width: 1000px;
+    max-width: 980px;
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -84,6 +87,11 @@ p {
 .cim_kep_leiras_doboz img {
     width: 24%;
     border-radius: 10px;
+}
+.cim_kep_leiras_doboz_kepek {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 
