@@ -66,17 +66,19 @@ section .container {
     margin-top: 10px;
 }
 h1 {
-    color:rgb(9, 9, 9);
+    color:rgb(237, 236, 232);
     text-align: center;
     padding: 5px;
-    background-image: linear-gradient( rgb(255, 102, 0),rgb(237, 236, 232));
+    background-image: linear-gradient( rgb(255, 102, 0) 20%,rgba(237, 236, 232, 0.8));
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 30px 10px;
+    text-shadow: 0 0 10px black;
 }
 p {
     color: rgb(237, 236, 232);
     text-align: center;
     padding: 10px;
+    padding-top: 20px;
 }
 .cim_kep_leiras_doboz img {
     width: 24%;
