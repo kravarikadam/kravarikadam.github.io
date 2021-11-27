@@ -4,183 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        table {
-            margin: 0 auto;
-            margin-top: 20px;
-            text-align: center;
-            font-size: 12px;
-            border-collapse: collapse;
-        }
-        th,td {
-            border: 1px solid black;
-            padding: 5px;  
-            width: 240px;
-        }
-        th {
-            background-color: rgb(169, 164, 164);
-        }
-        td:nth-child(2) {
-            background-color: rgb(0, 110, 255);
-        }
-        td:nth-child(3) {
-            background-color: rgb(233, 225, 114);
-        }
-        td:nth-child(4) {
-            background-color: rgb(88, 182, 65);
-        }
-        td:nth-child(5) {
-            background-color: rgb(235, 66, 66);
-        }
-        tr:nth-child(even) {
-            opacity: 0.9;
-        }
-        .justify {  
-            text-align: justify;
-        }
-    </style>
+    <title>Kravarik Ádám</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <table>
-        <tr>
-            <th>Temperamentumok</th>
-            <th>SJ <br> (Gondviselők)</th>
-            <th>SP <br> (Kézművesek)</th>
-            <th>NF <br> (Idealisták)</th>
-            <th>NT <br> (Racionalisták)</th>
-        </tr>
-        <tr>
-            <th>Myers-Briggs Types</th>
-            <td>ISTJ, ISFJ, ESTJ, ESFJ</td>
-            <td>ISTP, ISFP, ESTP, ESFP</td>
-            <td>INFJ, INFP, ENFP, ENFJ</td>
-            <td>INTJ, INTP, ENTP, ENTJ</td>
-        </tr>
-        <tr>
-            <th>Leírás</th>
-            <td class="justify">
-                Értékeli a biztonságot és a stabilitást.
-                Gyakorlatiasok és jól szervezettek.
-                Szeretnek valamilyen intézményhez tartozni,
-                és álltalában felelősségteljesek, lojálisak
-                és szorgalmasok, ügyelve arra, hogy betartsák
-                és betartassák ezen intézmények megállapított
-                szabályait, struktúráit és hagyományait. 
-            </td>
-            <td class="justify">
-                A jelen pillanatban él, és szereti élvezni az életet. 
-                Gyakran jók a sportokban, a művészi kifejezésekben
-                vagy a különleges készségeket igénylő tevékenységekben.
-                Szeretik gyakorlatias dolgokkal elfoglalni magukat.
-                Gyakorlatias munkákat kedvelik jobban,
-                de szabadságra és rugalmasságra van szükségük.
-                Kalandvágyó és alkalmazkodóképes.
-                Jó probléma megoldók a válság idején, de arról is 
-                ismertek, hogy néha megszegik a szabályokat.
-            </td>
-            <td class="justify">
-                Leginkább az emberi potenciál fejlesztésével foglalkoznak,
-                mind önmagukban, mind másokban.
-                A jövőre összpontosítanak és jól látják a lehetőségeket, 
-                különösen azokat, amelyek az emberekhez kapcsolódnak. 
-                Azt akarják, hogy az életük értelmes legyen, és úgy érezzék,
-                hogy másoknak szükségük van rá.
-                Erős érték rendel és jó kommunikációs készségekkel rendelkeznek,
-                ezért általában ők azok, akik harmóniát tartanak fenn a csoportokban.
-            </td>
-            <td class="justify">
-                Mindenekfelett értékelik a tudást és a kompetenciát.
-                Szeretnek értelmet adni a világnak, hogy segítsenek azon javítani,
-                de álltalában nem érdeklődnek a részletek iránt. 
-                Jól látják a teljes képet, összekapcsolják az ötleteket
-                és felismerik a mintákat.
-                Gyakran a maguk módján csinálják a dolgokat és lehetnek
-                komolyak vagy szórakozottak.
-            </td>
-        </tr>
-        <tr>
-            <th>Osztályozás</th>
-            <td>Konkrét együttműködők</td>
-            <td>Konkrét haszonelvüek</td>
-            <td>Absztrakt együttműködők</td>
-            <td>Absztrakt haszonelvűek</td>
-        </tr>
-        <tr>
-            <th>Intelligencia típusa</th>
-            <td>Logisztikai</td>
-            <td>Taktikai</td>
-            <td>Diplomáciai</td>
-            <td>Stratégiai</td>
-        </tr>
-        <tr>
-            <th>Négy elem</th>
-            <td>Föld <br> (stabilizátor)</td>
-            <td>Tűz <br> (aktivátor)</td>
-            <td>Víz <br> (egyesítő)</td>
-            <td>Levegő <br> (derítő)</td>
-        </tr>
-        <tr>
-            <th>A boldogság forrásai</th>
-            <td>Anyagi</td>
-            <td>Érzéki</td>
-            <td>Etikai</td>
-            <td>Logikai</td>
-        </tr>
-        <tr>
-            <th>Középkori szerepek</th>
-            <td>Gyémántok <br> (kereskedők)</td>
-            <td>Klubok <br> (dolgozók)</td>
-            <td>Szivek <br> (papok)</td>
-            <td>Ásó <br> (katonák/uralkodók)</td>
-        </tr>
-        <tr>
-            <th>Négy élőlény</th>
-            <td>Ökör <br> (dolgos)</td>
-            <td>Oroszlán <br> (bátor)</td>
-            <td>Emberi <br> (könyörületes)</td>
-            <td>Sas <br> (látja a nagy képet)</td>
-        </tr>
-        <tr>
-            <th>Négy evangélium</th>
-            <td>Matthew <br> (egy adószedő által írt rendezett beszámoló)</td>
-            <td>Mark <br> (egy gyors tempójú, cselekvés-orientált fiók)</td>
-            <td>Luke <br> (egy orvos által írt emberközpontú beszámoló)</td>
-            <td>John <br> (szimbolikusabb, teologizált beszámoló)</td>
-        </tr>
-        <tr>
-            <th>Hindu utak az üdvösséghez</th>
-            <td>Bhakti jóga <br> (megváltás az odaadás által)</td>
-            <td>Karma jóga <br> (megváltás a cselekvés által)</td>
-            <td>Rádzsa jóga <br> (megváltás meditáción keresztül)</td>
-            <td>Jnana jóga <br> (üdvösség a tudáson keresztül)</td>
-        </tr>
-        <tr>
-            <th>Óz, a Nagy Varázsló</th>
-            <td>Dorothy <br> (haza akart menni)</td>
-            <td>Az oroszlán <br> (bátorságot akart)</td>
-            <td>A bádogember <br> (szívet akart)</td>
-            <td>A madárijesztő <br> (agyat akart)</td>
-        </tr>
-        <tr>
-            <th>Harry Potter</th>
-            <td>Hugrabugos <br> (dolgos)</td>
-            <td>Griffendéles <br> (bátor)</td>
-            <td>Mardekáros <br> (idealista)</td>
-            <td>Hollóhátas <br> (eszes)</td>
-        </tr>
-        <tr>
-            <th>Narnia</th>
-            <td>Susan <br> (gyakorlati)</td>
-            <td>Edmund <br> (impulzív)</td>
-            <td>Lucy <br> (gondoskodó)</td>
-            <td>Péter <br> (vezetői)</td>
-        </tr>
-    </table>
+<body class="bg-warning"> 
+  <header class="fixed-top px-1 bg-warning">
+    <nav class="col-12 col-md-8 navbar navbar-dark bg-dark mt-2 rounded-3 ms-auto me-auto">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/kelo_logo.gif" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bukósisak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ruházat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Védőfelszerelés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Felszerelés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kiegészítők</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tartozékok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alkatrész</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kenőanyag</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+  <section class="px-2">
+      <div class="row col-12 col-md-8 ms-auto me-auto bg-light rounded-3 mt-10">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+      
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+      
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+
+      <div class="row col-md-8 ms-auto me-auto bg-light mt-2 rounded-3">
+        <div class="col-12 text-center">
+          <h1 class="bg-warning rounded-3 mt-3 fs-4">Termék Címe</h1>
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid" src="img/n302s.jpg" alt="bukosisak">
+        </div>
+        <div class="col-12 text-center">
+          <p class="bg-warning rounded-3 mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore dolore unde debitis sit sequi in? Sed omnis magni natus.</p>
+        </div>
+      </div>
+    
+  </section>
+    
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
