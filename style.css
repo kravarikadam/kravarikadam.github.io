@@ -1,7 +1,9 @@
 .navbar-brand img {
     width: 100px;
 }
-.mt-10 {
-    margin-top: 100px;
+.pt-10 {
+    padding-top: 80px;
 }
-
+nav, .container{
+    max-width: 1200px;
+}
