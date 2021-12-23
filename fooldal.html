@@ -14,22 +14,31 @@
         .pt-10 {
             padding-top: 80px;
         }
-        nav, .container{
+        nav, .container, footer{
             max-width: 1200px;
         }
         .kep_termek {
-          height: 150px;
+          max-height: 150px;
         }
         .bg-white {
           background-color: white;
+        }
+        .fo_doboz {
+          max-width: 400px;
+        }
+        .bg-rozsaszin {
+          background-color: rgb(255, 0, 138);
+        }
+        .bg-kek {
+          background-color: rgb(62, 208, 245);
         }
     </style>
 </head>
 <body class="bg-dark"> 
   <header class="fixed-top px-1 bg-dark">
-    <nav class="navbar navbar-dark bg-dark mt-2 rounded-3 ms-auto me-auto">
+    <nav class="navbar navbar-dark bg-rozsaszin mt-2 rounded-3 ms-auto me-auto">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="fooldal.html">
           <img src="img/logo.jpg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,28 +47,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Bukósisak</a>
+              <a class="nav-link" href="#">Sörök</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ruházat</a>
+              <a class="nav-link" href="#">Cider, Breezer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Védőfelszerelés</a>
+              <a class="nav-link" href="#">Borok</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Felszerelés</a>
+              <a class="nav-link" href="#">Pezsgők</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kiegészítők</a>
+              <a class="nav-link" href="#">Szeszes italok</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tartozékok</a>
+              <a class="nav-link" href="#">Üdítők</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Alkatrész</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kenőanyag</a>
+              <a class="nav-link" href="#">Delikát</a>
             </li>
           </ul>
         </div>
@@ -69,83 +75,108 @@
     
   <section class="pt-10 pb-2">
     <div class="container">
-                      <!-- Figyelmeztető Üzenet!  -->
-      <div class=" d-none ms-auto me-auto alert alert-danger text-center rounded-3 mt-3 py-5 fw-bold" role="alert">
-        Felhívjuk a Tisztelt Érdeklődők figyelmét,
-        hogy a HJC és a Nox bukósisakok árai árazás alatt vannak.
-        Ezért előfordulhat, hogy egyes modelleknél még nincsenek javítva az árak.
-        A pontos árakról érdeklődjenek elérhetőségeinken.
-      </div>
-                      <!-- Figyelmeztető Üzenet!  -->
-      <div class="d-none alert alert-warning text-center rounded-3 mt-3 py-5 fw-bold" role="alert">
-        A simple danger alert—check it out!
-      </div>
-                      <!-- Fő doboz (cím/képek/leírás)!  -->
-      <div class="row ms-auto me-auto bg-light mt-2 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/Dreher 0,5 Dobozos_350x350.jpg" alt="Sörök">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">   
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/Dreher 0,5 Dobozos_350x350.jpg" alt="Sörök">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Sörök</h1>
+            </div>
+          </div>
         </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Sörök</h1>
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/somersby-dinnye 0,33 üveges_350x350.jpg" alt="Cider, Breezer">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Cider, <br> Breezer</h1>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/somersby-dinnye 0,33 üveges_350x350.jpg" alt="Cider, Breezer">
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/NyakasIirsaiOlivér_350x350.webp" alt="Borok">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Borok</h1>
+            </div>
+          </div>
         </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Cider, <br> Breezer</h1>
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/unnamed_350x350.webp" alt="Pezsgők">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Pezsgők</h1>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/NyakasIirsaiOlivér_350x350.webp" alt="Borok">
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/ABSOLUT Vodka Blue 1l 40 _350x350.jpg" alt="Szeszes italok">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Szeszes <br> italok</h1>
+            </div>
+          </div>
         </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Borok</h1>
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/COCACOLAZERO1,75L_350x350.jpg" alt="Üdítők">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Üdítők</h1>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/unnamed_350x350.webp" alt="Pezsgők">
-        </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Pezsgők</h1>
-        </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/ABSOLUT Vodka Blue 1l 40 _350x350.jpg" alt="Szeszes italok">
-        </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Szeszes <br> italok</h1>
-        </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/COCACOLAZERO1,75L_350x350.jpg" alt="Üdítők">
-        </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Üdítők</h1>
-        </div>
-      </div>
-
-      <div class="row ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
-        <div class="col-6 text-center">
-          <img class="kep_termek img-fluid" src="img/nachosbox1_350x350.webp" alt="Delikát">
-        </div>
-        <div class="col-6 text-center d-flex align-items-center justify-content-start">
-          <h1>Delikát</h1>
+        <div class="col-md-6 col-lg-4">
+          <div class="row fo_doboz ms-auto me-auto bg-light mt-3 rounded-3 p-2 bg-white">
+            <div class="col-6 text-center">
+              <img class="kep_termek img-fluid" src="img/nachosbox1_350x350.webp" alt="Delikát">
+            </div>
+            <div class="col-6 text-center d-flex align-items-center justify-content-start">
+              <h1>Delikát</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
   </section>
+
+  <footer class="p-2 bg-kek rounded-3 ms-auto me-auto">
+    <div class="row">
+      <div class="col">
+        <p>Italrendelés: +36 20 551 2655</p>
+        <p>welcomedrinksfutar@gmail.com</p>
+
+      </div>
+
+    </div>
+  </footer>
     
     
 
