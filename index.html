@@ -4,114 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hencsiland - Kozmetika</title>
-    <!-- Boostrap -->
-    <link href="bootstrap-5.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="bootstrap-5.1.3/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <style>
-    header, section, footer {
-      max-width: 1000px;
-      margin: auto;
-    }
-    #logo {
-      width: 100px;
-    }
-    h5 {
-      text-align: center;
-    }
-    p {
-      text-align: justify;
-    }
-    section {
-      padding-top: 160px;
-    }
-    @media screen and (min-width: 992px) {
-      section {
-        padding-top: 200px;
-      }
-    }
-    .navbar-nav li a:hover {
-      color: purple;
-    }
-    </style>
+    <title>Kravarik Ádám</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
 
-<header class="fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid flex-lg-column">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="img/logo.jpg" alt="logo" class="d-inline-block align-text-center">
-        Hencsiland
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#kezdolap">Kezdőlap</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#rolunk">Rólunk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#kezelesek">Kezelések</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#arlista">Árlista</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#ajandekutalvany">Ajándékutalvány</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#idopontfoglalas">Időpontfoglalás</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#kapcsolat">Kapcsolat</a>
-          </li>
-        </ul>
+  <header class="fixed-top px-1"></header>
+  
+  <section class="pt-10 pb-2">
+    <div class="container" id="container">
+                      <!-- Figyelmeztető Üzenet!  -->
+      <div class="d-none ms-auto me-auto alert alert-danger text-center rounded-3 mt-3 py-5 fw-bold" role="alert">
+        Felhívjuk a Tisztelt Érdeklődők figyelmét,
+        hogy a HJC és a Nox bukósisakok árai árazás alatt vannak.
+        Ezért előfordulhat, hogy egyes modelleknél még nincsenek javítva az árak.
+        A pontos árakról érdeklődjenek elérhetőségeinken.
       </div>
+                      <!-- Figyelmeztető Üzenet!  -->
+      <div class="d-none alert alert-warning text-center rounded-3 mt-3 py-5 fw-bold" role="alert">
+        A simple danger alert—check it out!
+      </div>
+                      <!-- Fő doboz (cím/képek/leírás)!  -->
     </div>
-  </nav>
-</header>
+  </section>
 
-<section>
-  <div class="container">
-      <div class="col" id="kezdolap">
-        <h5>Kezdőlap</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="rolunk">
-        <h5>Rólunk</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="kezelesek">
-        <h5>Kezelések</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="arlista">
-        <h5>Árlista</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="ajandekutalvany">
-        <h5>Ajándékutalvány</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="idopontfoglalas">
-        <h5>Időpontfoglalás</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-      <div class="col" id="kapcsolat">
-        <h5>Kapcsolat</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium facere aperiam magnam veniam quibusdam temporibus, quidem accusantium illum incidunt deserunt reiciendis unde fugiat corrupti nobis rem aut aliquam doloremque voluptatem molestiae. Fugit tempora alias, quasi consectetur distinctio aliquid aspernatur quae sed amet consequuntur voluptatum, dignissimos ea! Eos dolorem maiores quo dolore molestias aperiam dolorum modi quaerat sint cumque? Beatae, ipsam eaque eos neque in itaque sint quisquam nobis repudiandae dolor animi minus dicta! Nostrum ipsam perferendis voluptate dolorem non suscipit odit quae aut, eos repellendus at cupiditate. In nihil, quaerat fuga debitis doloribus maiores unde nostrum minus numquam eius.</p>
-      </div>
-  </div>
+  <footer class="pb-4"></footer>
 
-</section>
+  <script>
+    let foDoboz=[
+      {
+        cim:`Kifutó bőrdzsekik és bőrkabátok most akciós áron`,
+        kep1:`"img/ruhazat/ferfi_bor_kabat/bk_18.jpg" alt="bukosisak"`,
+        kep2:`"img/ruhazat/ferfi_bor_kabat/shadow_black.jpg" alt="bukosisak"`,
+        kep3:`"img/ruhazat/ferfi_bor_kabat/wintex_bordzseki_shadow_fluo.jpg" alt="bukosisak"`,
+        leiras:`Részletek a <a class="text-decoration-none color_orange fw-bold" href="">Ruházat</a> menüpontban.`
+      },
+      {
+        cim:`Új motoros cipők a kínálatban`,
+        kep1:`"img/ruhazat/csizma_cipo/tcx_motoros_cipo_rush_2_air.jpg" alt="csizma"`,
+        kep2:`"img/ruhazat/csizma_cipo/buse_cipo_b50.jpg" alt="csizma"`,
+        kep3:`"img/ruhazat/csizma_cipo/4square_bakancs_shift_fekete.jpg" alt="csizma"`,
+        leiras:`Részletek a <a class="text-decoration-none color_orange fw-bold" href="">Ruházat</a> menüpontban.`
+      }
+    ];
+///////////////////////////////////////////////////////////////////////
+    const container=document.querySelector("#container");
+    for(let i=0;i<100;i++)
+    {
+      container.innerHTML+=
+      `
+      <div class="row ms-auto me-auto bg-light mt-2 rounded-3 orange_border">
+          <div class="col-12 text-center mb-3">
+            <h1 class="bg-vilagosFekete color_feher rounded-3 mt-3 mb-3 fs-6 py-2">${foDoboz[i].cim}</h1>
+          </div>
+          <div class="col text-center">
+            <img class="img-fluid" src=${foDoboz[i].kep1}>
+          </div>
+          <div class="col text-center">
+            <img class="img-fluid" src=${foDoboz[i].kep2}>
+          </div>
+          <div class="col text-center">
+            <img class="img-fluid" src=${foDoboz[i].kep3}>
+          </div>
+          <div class="col-12 text-center">
+            <p class="rounded-3 mt-3 fs-6 px-2 py-2">${foDoboz[i].leiras}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    }
+  </script>
+    
+    
 
-<footer>
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="nav.js"></script>
+  <script src="footer.js"></script>
 </body>
 </html>
